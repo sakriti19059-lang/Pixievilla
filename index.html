@@ -214,11 +214,11 @@ gsap.from(".card",{scrollTrigger:".card",y:100,opacity:0,stagger:0.2});
 
 // EMAILJS INIT
 (function(){
-  emailjs.init("YOUR_PUBLIC_KEY"); // replace
+  emailjs.init(UF8LSvZZ8QGcTRb4_); // replace
 })();
 
 function sendBooking(){
-  emailjs.send("YOUR_SERVICE_ID","YOUR_TEMPLATE_ID",{
+  emailjs.send(template_w6jt3pu,service_df6fb0t{
     checkin:document.getElementById("checkin").value,
     checkout:document.getElementById("checkout").value,
     guests:document.getElementById("guests").value
